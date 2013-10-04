@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.nowbeat</groupId>
+    <artifactId>nowbeat-parent</artifactId>
+    <packaging>pom</packaging>
+    <version>0.1.0</version>
+    <modules>
+        <module>nowbeat-core</module>
+        <module>nowbeat-core-orm</module>
+        <module>nowbeat-client-web</module>
+        <module>nowbeat-api-facade</module>
+        <module>nowbeat-core-test</module>
+    </modules>
+
+    <properties>
+        <version.nowbeat>0.1.0</version.nowbeat>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>com.nowbeat</groupId>
+                <artifactId>nowbeat-core</artifactId>
+                <version>${version.nowbeat}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.nowbeat</groupId>
+                <artifactId>nowbeat-core-orm</artifactId>
+                <version>${version.nowbeat}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.nowbeat</groupId>
+                <artifactId>nowbeat-core-test</artifactId>
+                <version>${version.nowbeat}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.nowbeat</groupId>
+                <artifactId>nowbeat-api-facade</artifactId>
+                <version>${version.nowbeat}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.nowbeat</groupId>
+                <artifactId>nowbeat-client-web</artifactId>
+                <version>${version.nowbeat}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+    
+
+
+
+</project>

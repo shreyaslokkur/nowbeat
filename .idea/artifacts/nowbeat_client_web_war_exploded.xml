@@ -1,0 +1,24 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="nowbeat-client-web:war exploded">
+    <output-path>$PROJECT_DIR$/nowbeat-client-web/target/nowbeat-client-web-0.1.0</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="nowbeat-client-web/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="nowbeat-client-web" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="archive" name="nowbeat-core-0.1.0.jar">
+            <element id="module-output" name="nowbeat-core" />
+          </element>
+          <element id="archive" name="nowbeat-core-orm-0.1.0.jar">
+            <element id="module-output" name="nowbeat-core-orm" />
+          </element>
+          <element id="archive" name="nowbeat-api-facade-0.1.0.jar">
+            <element id="module-output" name="nowbeat-api-facade" />
+          </element>
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/nowbeat-api-facade/nowbeat-api-facade.iml" filepath="$PROJECT_DIR$/nowbeat-api-facade/nowbeat-api-facade.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nowbeat-client-web/nowbeat-client-web.iml" filepath="$PROJECT_DIR$/nowbeat-client-web/nowbeat-client-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nowbeat-core/nowbeat-core.iml" filepath="$PROJECT_DIR$/nowbeat-core/nowbeat-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nowbeat-core-orm/nowbeat-core-orm.iml" filepath="$PROJECT_DIR$/nowbeat-core-orm/nowbeat-core-orm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nowbeat-core-test/nowbeat-core-test.iml" filepath="$PROJECT_DIR$/nowbeat-core-test/nowbeat-core-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nowbeat-parent.iml" filepath="$PROJECT_DIR$/nowbeat-parent.iml" />
+    </modules>
+  </component>
+</project>
+

@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="nowbeat-api-facade:war exploded">
+    <output-path>$PROJECT_DIR$/nowbeat-api-facade/target/nowbeat-api-facade-0.1.0</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="nowbeat-api-facade/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="nowbeat-api-facade" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
