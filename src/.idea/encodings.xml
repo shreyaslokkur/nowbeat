@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false" />
+  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
+    <file url="file://$PROJECT_DIR$/nowbeat-core-orm/src/main/java/com/nowbeat/core/AbstractNowBeatEntity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nowbeat-core-orm/src/main/java/com/nowbeat/core/orm/Address.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nowbeat-core-orm/src/main/java/com/nowbeat/core/orm/Company.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nowbeat-core-orm/src/main/java/com/nowbeat/core/orm/NightClub.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nowbeat-core/src/main/java/com/nowbeat/enums/AddressType.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nowbeat-core/src/main/java/com/nowbeat/enums/Weekend.java" charset="UTF-8" />
+  </component>
 </project>
 
