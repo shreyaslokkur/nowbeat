@@ -3,14 +3,10 @@ package com.nowbeat.core.orm;
 
 import com.nowbeat.core.AbstractNowBeatEntity;
 import com.nowbeat.enums.Weekend;
-import org.hibernate.annotations.Type;
-import org.joda.time.LocalDate;
 import org.springframework.beans.factory.annotation.Configurable;
-import org.springframework.format.annotation.DateTimeFormat;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;
-import java.math.BigDecimal;
 
 @Configurable
 @Entity
@@ -42,9 +38,9 @@ public class NightClub extends AbstractNowBeatEntity {
 	@NotNull
 	private String shortName;
 
-	@Column(name = "COUNTRY", length = 2)
+	@Column(name = "CITY", length = 10)
 	@NotNull
-	private String country;
+	private String city;
 
 	@Column(name = "CURRENCY", length = 3)
 	@NotNull
@@ -66,10 +62,10 @@ public class NightClub extends AbstractNowBeatEntity {
 	private String addressCode;
 
     @Column(name = "ENTRY_FEE", precision = 20, scale = 3)
-    private BigDecimal entryFee;
+    private double entryFee;
 
     @Column(name = "COVER_CHARGE", precision = 20, scale = 3)
-    private BigDecimal coverCharge;
+    private double coverCharge;
 
     public String getNightclub() {
         return nightclub;
@@ -103,12 +99,12 @@ public class NightClub extends AbstractNowBeatEntity {
 		this.shortName = shortName;
 	}
 
-	public String getCountry() {
-		return country;
+	public String getCity() {
+		return city;
 	}
 
-	public void setCountry(String country) {
-		this.country = country;
+	public void setCity(String city) {
+		this.city = city;
 	}
 
 	public String getCurrency() {
@@ -169,19 +165,19 @@ public class NightClub extends AbstractNowBeatEntity {
         this.facebookId = facebookId;
     }
 
-    public BigDecimal getEntryFee() {
+    public double getEntryFee() {
         return entryFee;
     }
 
-    public void setEntryFee(BigDecimal entryFee) {
+    public void setEntryFee(double entryFee) {
         this.entryFee = entryFee;
     }
 
-    public BigDecimal getCoverCharge() {
+    public double getCoverCharge() {
         return coverCharge;
     }
 
-    public void setCoverCharge(BigDecimal coverCharge) {
+    public void setCoverCharge(int coverCharge) {
         this.coverCharge = coverCharge;
     }
 }
