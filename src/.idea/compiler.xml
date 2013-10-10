@@ -26,6 +26,7 @@
         <module name="nowbeat-client-web" />
         <module name="nowbeat-core" />
         <module name="nowbeat-core-orm" />
+        <module name="nowbeat-core-orm-finders" />
         <module name="nowbeat-core-test" />
       </profile>
     </annotationProcessing>

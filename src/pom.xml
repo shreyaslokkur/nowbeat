@@ -14,6 +14,7 @@
         <module>nowbeat-client-web</module>
         <module>nowbeat-api-facade</module>
         <module>nowbeat-core-test</module>
+        <module>nowbeat-core-orm-finders</module>
     </modules>
 
     <properties>
@@ -27,7 +28,7 @@
         <version.jpa.api>1.0.1.Final</version.jpa.api>
         <version.joda.time>2.1</version.joda.time>
         <version.testng>6.5.2</version.testng>
-
+        <version.spring.data.jpa>1.1.0.RELEASE</version.spring.data.jpa>
     </properties>
 
     <dependencyManagement>
@@ -55,6 +56,11 @@
             <dependency>
                 <groupId>com.nowbeat</groupId>
                 <artifactId>nowbeat-client-web</artifactId>
+                <version>${version.nowbeat}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.nowbeat</groupId>
+                <artifactId>nowbeat-core-orm-finders</artifactId>
                 <version>${version.nowbeat}</version>
             </dependency>
 

@@ -1,6 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
+    <file url="file://$PROJECT_DIR$/nowbeat-core-orm-finders/src/main/java/com/nowbeat/core/orm/finders/repositories/AddressRepository.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nowbeat-core-orm-finders/src/main/java/com/nowbeat/core/orm/finders/repositories/AddressRepositoryCustom.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nowbeat-core-orm-finders/src/main/java/com/nowbeat/core/orm/finders/repositories/AddressRepositoryImpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nowbeat-core-orm-finders/src/main/java/com/nowbeat/core/orm/finders/repositories/AreaRepository.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nowbeat-core-orm-finders/src/main/java/com/nowbeat/core/orm/finders/repositories/AreaRepositoryCustom.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nowbeat-core-orm-finders/src/main/java/com/nowbeat/core/orm/finders/repositories/AreaRepositoryImpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nowbeat-core-orm-finders/src/main/java/com/nowbeat/core/orm/finders/repositories/CityRepository.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nowbeat-core-orm-finders/src/main/java/com/nowbeat/core/orm/finders/repositories/CityRepositoryCustom.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nowbeat-core-orm-finders/src/main/java/com/nowbeat/core/orm/finders/repositories/CityRepositoryImpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nowbeat-core-orm-finders/src/main/java/com/nowbeat/core/orm/finders/repositories/ClubRatingRepository.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nowbeat-core-orm-finders/src/main/java/com/nowbeat/core/orm/finders/repositories/ClubRatingRepositoryCustom.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nowbeat-core-orm-finders/src/main/java/com/nowbeat/core/orm/finders/repositories/ClubRatingRepositoryImpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nowbeat-core-orm-finders/src/main/java/com/nowbeat/core/orm/finders/repositories/CompanyRepository.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nowbeat-core-orm-finders/src/main/java/com/nowbeat/core/orm/finders/repositories/CompanyRepositoryCustom.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nowbeat-core-orm-finders/src/main/java/com/nowbeat/core/orm/finders/repositories/CompanyRepositoryImpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nowbeat-core-orm-finders/src/main/java/com/nowbeat/core/orm/finders/repositories/CountryRepository.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nowbeat-core-orm-finders/src/main/java/com/nowbeat/core/orm/finders/repositories/CountryRepositoryCustom.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nowbeat-core-orm-finders/src/main/java/com/nowbeat/core/orm/finders/repositories/CountryRepositoryImpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nowbeat-core-orm-finders/src/main/java/com/nowbeat/core/orm/finders/repositories/DJRatingRepository.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nowbeat-core-orm-finders/src/main/java/com/nowbeat/core/orm/finders/repositories/DJRatingRepositoryCustom.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nowbeat-core-orm-finders/src/main/java/com/nowbeat/core/orm/finders/repositories/DJRatingRepositoryImpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nowbeat-core-orm-finders/src/main/java/com/nowbeat/core/orm/finders/repositories/DbFuncs.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nowbeat-core-orm-finders/src/main/java/com/nowbeat/core/orm/finders/repositories/EventRepository.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nowbeat-core-orm-finders/src/main/java/com/nowbeat/core/orm/finders/repositories/EventRepositoryCustom.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nowbeat-core-orm-finders/src/main/java/com/nowbeat/core/orm/finders/repositories/EventRepositoryImpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nowbeat-core-orm-finders/src/main/java/com/nowbeat/core/orm/finders/repositories/Finders.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nowbeat-core-orm-finders/src/main/java/com/nowbeat/core/orm/finders/repositories/IReadOnlyRepository.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nowbeat-core-orm-finders/src/main/java/com/nowbeat/core/orm/finders/repositories/NightClubRepository.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nowbeat-core-orm-finders/src/main/java/com/nowbeat/core/orm/finders/repositories/NightClubRepositoryCustom.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nowbeat-core-orm-finders/src/main/java/com/nowbeat/core/orm/finders/repositories/NightClubRepositoryImpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nowbeat-core-orm-finders/src/main/java/com/nowbeat/core/orm/finders/repositories/StateRepository.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nowbeat-core-orm-finders/src/main/java/com/nowbeat/core/orm/finders/repositories/StateRepositoryCustom.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nowbeat-core-orm-finders/src/main/java/com/nowbeat/core/orm/finders/repositories/StateRepositoryImpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nowbeat-core-orm-finders/src/main/java/com/nowbeat/core/orm/finders/repositories/TrackRatingRepository.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nowbeat-core-orm-finders/src/main/java/com/nowbeat/core/orm/finders/repositories/TrackRatingRepositoryCustom.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nowbeat-core-orm-finders/src/main/java/com/nowbeat/core/orm/finders/repositories/TrackRatingRepositoryImpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nowbeat-core-orm-finders/src/main/java/com/nowbeat/core/orm/finders/repositories/TrackRepository.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nowbeat-core-orm-finders/src/main/java/com/nowbeat/core/orm/finders/repositories/TrackRepositoryCustom.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nowbeat-core-orm-finders/src/main/java/com/nowbeat/core/orm/finders/repositories/TrackRepositoryImpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nowbeat-core-orm-finders/src/main/java/com/nowbeat/core/orm/finders/repositories/UserProfileRepository.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nowbeat-core-orm-finders/src/main/java/com/nowbeat/core/orm/finders/repositories/UserProfileRepositoryCustom.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nowbeat-core-orm-finders/src/main/java/com/nowbeat/core/orm/finders/repositories/UserProfileRepositoryImpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nowbeat-core-orm-finders/src/main/java/com/nowbeat/core/orm/finders/repositories/UserRoleMappingRepository.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nowbeat-core-orm-finders/src/main/java/com/nowbeat/core/orm/finders/repositories/UserRoleMappingRepositoryCustom.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nowbeat-core-orm-finders/src/main/java/com/nowbeat/core/orm/finders/repositories/UserRoleMappingRepositoryImpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nowbeat-core-orm-finders/src/main/java/com/nowbeat/core/orm/finders/repositories/UserRoleRepository.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nowbeat-core-orm-finders/src/main/java/com/nowbeat/core/orm/finders/repositories/UserRoleRepositoryCustom.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nowbeat-core-orm-finders/src/main/java/com/nowbeat/core/orm/finders/repositories/UserRoleRepositoryImpl.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/nowbeat-core-orm/src/main/java/com/nowbeat/core/AbstractNowBeatEntity.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/nowbeat-core-orm/src/main/java/com/nowbeat/core/orm/Address.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/nowbeat-core-orm/src/main/java/com/nowbeat/core/orm/Company.java" charset="UTF-8" />
