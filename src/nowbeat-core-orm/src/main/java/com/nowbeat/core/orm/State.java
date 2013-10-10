@@ -23,7 +23,7 @@ public class State extends AbstractNowBeatEntity {
     @Column(name = "STATE_NAME", length = 50)
     private String stateName;
 
-    @Column(name = "COUNTRY", length = 30)
+    @Column(name = "COUNTRY", length = 15)
     private String country;
 
     @Column(name = "SHORT_NAME", length = 10)

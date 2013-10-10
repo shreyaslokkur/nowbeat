@@ -16,7 +16,7 @@ import javax.validation.constraints.NotNull;
         "DJ","USER" }) })
 public class DJRating extends AbstractNowBeatEntity {
 
-    @Column(name = "DJ", length = 50)
+    @Column(name = "DJ", length = 30)
     @NotNull
     private String dj;
 

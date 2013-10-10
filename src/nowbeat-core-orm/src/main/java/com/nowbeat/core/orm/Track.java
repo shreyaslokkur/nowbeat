@@ -30,7 +30,7 @@ public class Track extends AbstractNowBeatEntity {
 	@NotNull
 	private String trackName;
 
-    @Column(name = "ARTIST", length = 90)
+    @Column(name = "ARTIST", length = 30)
     @NotNull
     private String artist;
 

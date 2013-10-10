@@ -39,13 +39,13 @@ public class Address extends AbstractNowBeatEntity {
 	@Column(name = "ADDRESS_LINE5", length = 50)
 	private String addressLine5;
 
-    @Column(name = "AREA", length = 50)
+    @Column(name = "AREA", length = 30)
     private String area;
 
 	@Column(name = "CITY", length = 30)
 	private String city;
 
-	@Column(name = "PIN_CODE", length = 6)
+	@Column(name = "PIN_CODE", length = 10)
 	private String pinCode;
 
 	@Column(name = "CONTACT_PERSON", length = 60)
@@ -66,10 +66,10 @@ public class Address extends AbstractNowBeatEntity {
 	@Column(name = "EMAIL_ID", length = 50)
 	private String emailId;
 
-	@Column(name = "STATE", length = 3)
+	@Column(name = "STATE", length = 10)
 	private String state;
 
-    @Column(name = "COUNTRY", length = 3)
+    @Column(name = "COUNTRY", length = 10)
     private String country;
 
 	public String getAddressCode() {

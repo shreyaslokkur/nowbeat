@@ -17,20 +17,20 @@ import javax.validation.constraints.NotNull;
 		"USER_ROLE","USER","COMPANY" }) })
 public class UserRoleMapping extends AbstractNowBeatEntity {
 
-    @Column(name = "USER_ROLE", length = 50)
+    @Column(name = "USER_ROLE", length = 30)
     @NotNull
     protected String userRole;
 
 
-   	@Column(name = "USER", length = 90)
+   	@Column(name = "USER", length = 30)
 	@NotNull
 	private String user;
 
-    @Column(name = "COMPANY", length = 90)
+    @Column(name = "COMPANY", length = 20)
     @NotNull
     private String company;
 
-    @Column(name = "NIGHTCLUB", length = 90)
+    @Column(name = "NIGHTCLUB", length = 50)
     @NotNull
     private String nightclub;
 

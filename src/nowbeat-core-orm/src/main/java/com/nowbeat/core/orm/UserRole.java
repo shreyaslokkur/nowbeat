@@ -17,7 +17,7 @@ import javax.validation.constraints.NotNull;
 		"USER_ROLE" }) })
 public class UserRole extends AbstractNowBeatEntity {
 
-    @Column(name = "USER_ROLE", length = 50)
+    @Column(name = "USER_ROLE", length = 30)
     @NotNull
     protected String userRole;
 
@@ -27,7 +27,7 @@ public class UserRole extends AbstractNowBeatEntity {
 	private String userRoleName;
 
 
-	@Column(name = "AccessLevel", length = 10)
+	@Column(name = "AccessLevel", length = 15)
 	@NotNull
 	private AccessLevel accessLevel;
 

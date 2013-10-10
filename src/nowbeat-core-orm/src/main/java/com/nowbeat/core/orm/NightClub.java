@@ -18,7 +18,7 @@ public class NightClub extends AbstractNowBeatEntity {
     @NotNull
     protected String nightclub;
 
-    @Column(name = "COMPANY", length = 50)
+    @Column(name = "COMPANY", length = 20)
     @NotNull
     protected String company;
 
@@ -38,7 +38,7 @@ public class NightClub extends AbstractNowBeatEntity {
 	@NotNull
 	private String shortName;
 
-	@Column(name = "CITY", length = 10)
+	@Column(name = "CITY", length = 30)
 	@NotNull
 	private String city;
 
@@ -46,7 +46,7 @@ public class NightClub extends AbstractNowBeatEntity {
 	@NotNull
 	private String currency;
 
-	@Column(name = "HOLIDAY", length = 6)
+	@Column(name = "HOLIDAY", length = 20)
 	private String holiday;
 
 	@Column(name = "WEEKEND_1", length = 3)

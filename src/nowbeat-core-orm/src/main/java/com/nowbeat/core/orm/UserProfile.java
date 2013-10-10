@@ -14,7 +14,7 @@ import javax.validation.constraints.NotNull;
 		"USER" }) })
 public class UserProfile extends AbstractNowBeatEntity {
 
-    @Column(name = "USER", length = 50)
+    @Column(name = "USER", length = 30)
     @NotNull
     protected String user;
 
@@ -31,12 +31,12 @@ public class UserProfile extends AbstractNowBeatEntity {
     @NotNull
     protected String facebookId;
 
-    @Column(name = "USER_ROLE", length = 20)
+    @Column(name = "USER_ROLE", length = 30)
     @NotNull
     protected String userRole;
 
 
-	@Column(name = "CITY", length = 2)
+	@Column(name = "CITY", length = 30)
 	@NotNull
 	private String city;
 

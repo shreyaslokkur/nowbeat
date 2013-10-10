@@ -19,7 +19,7 @@ import java.math.BigDecimal;
 		"COMPANY" }) })
 public class Company extends AbstractNowBeatEntity {
 
-    @Column(name = "COMPANY", length = 15)
+    @Column(name = "COMPANY", length = 20)
     @NotNull
     protected String company;
 
@@ -38,7 +38,7 @@ public class Company extends AbstractNowBeatEntity {
 	@NotNull
 	private String companyType;
 
-	@Column(name = "COUNTRY", length = 2)
+	@Column(name = "COUNTRY", length = 10)
 	@NotNull
 	private String country;
 
@@ -64,7 +64,7 @@ public class Company extends AbstractNowBeatEntity {
 	@Type(type = "org.jadira.usertype.dateandtime.joda.PersistentLocalDate")
 	private LocalDate registrationDate;
 
-	@Column(name = "HOLIDAY", length = 6)
+	@Column(name = "HOLIDAY", length = 20)
 	private String holiday;
 
 	@Column(name = "WEEKEND_1", length = 3)

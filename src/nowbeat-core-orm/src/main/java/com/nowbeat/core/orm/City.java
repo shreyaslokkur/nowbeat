@@ -16,7 +16,7 @@ import javax.validation.constraints.NotNull;
         "CITY","STATE", "COUNTRY" }) })
 public class City extends AbstractNowBeatEntity {
 
-    @Column(name = "CITY", length = 15)
+    @Column(name = "CITY", length = 30)
     @NotNull
     private String city;
 
