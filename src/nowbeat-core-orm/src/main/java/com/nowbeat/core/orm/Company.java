@@ -58,11 +58,11 @@ public class Company extends AbstractNowBeatEntity {
 	@Column(name = "REGISTRATION_NO", length = 15)
 	private String registrationNo;
 
-	@Column(name = "REGISTRATION_DATE")
+	/*@Column(name = "REGISTRATION_DATE")
 	@Temporal(TemporalType.DATE)
 	@DateTimeFormat(style = "M-")
 	@Type(type = "org.jadira.usertype.dateandtime.joda.PersistentLocalDate")
-	private LocalDate registrationDate;
+	private LocalDate registrationDate;*/
 
 	@Column(name = "HOLIDAY", length = 20)
 	private String holiday;
@@ -177,13 +177,13 @@ public class Company extends AbstractNowBeatEntity {
 		this.registrationNo = registrationNo;
 	}
 
-	public LocalDate getRegistrationDate() {
+	/*public LocalDate getRegistrationDate() {
 		return registrationDate;
 	}
 
 	public void setRegistrationDate(LocalDate registrationDate) {
 		this.registrationDate = registrationDate;
-	}
+	}*/
 
 	public String getHoliday() {
 		return holiday;

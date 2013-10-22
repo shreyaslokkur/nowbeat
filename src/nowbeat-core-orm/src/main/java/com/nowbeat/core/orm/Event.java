@@ -43,17 +43,17 @@ public class Event extends AbstractNowBeatEntity {
 	@NotNull
 	private String shortName;
 
-    @Column(name = "EVENT_DATE")
+    /*@Column(name = "EVENT_DATE")
     @Temporal(TemporalType.DATE)
     @DateTimeFormat(style = "M-")
     @Type(type = "org.jadira.usertype.dateandtime.joda.PersistentLocalDate")
-    private LocalDate eventDate;
+    private LocalDate eventDate;*/
 
-    @Column(name = "EVENT_TIME")
+    /*@Column(name = "EVENT_TIME")
     @Temporal(TemporalType.TIMESTAMP)
     @Type(type = "org.jadira.usertype.dateandtime.joda.PersistentDateTime")
     @DateTimeFormat(style = "M-")
-    private DateTime eventTime;
+    private DateTime eventTime;*/
 
     @Column(name = "ENTRY_FEE_COUPLES", precision = 20, scale = 3)
     private double entryFeeCouples;
@@ -68,21 +68,21 @@ public class Event extends AbstractNowBeatEntity {
     @NotNull
     private boolean isCouplesOnly;
 
-    public LocalDate getEventDate() {
+    /*public LocalDate getEventDate() {
         return eventDate;
     }
 
     public void setEventDate(LocalDate eventDate) {
         this.eventDate = eventDate;
-    }
+    }*/
 
-    public DateTime getEventTime() {
+    /*public DateTime getEventTime() {
         return eventTime;
     }
 
     public void setEventTime(DateTime eventTime) {
         this.eventTime = eventTime;
-    }
+    }*/
 
     public boolean isCouplesOnly() {
         return isCouplesOnly;

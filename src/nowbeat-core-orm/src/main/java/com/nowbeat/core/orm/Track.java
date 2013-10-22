@@ -50,7 +50,7 @@ public class Track extends AbstractNowBeatEntity {
 	@NotNull
 	private String shortName;
 
-    @Column(name = "UPLOADED_DATE")
+    /*@Column(name = "UPLOADED_DATE")
     @Temporal(TemporalType.DATE)
     @DateTimeFormat(style = "M-")
     @Type(type = "org.jadira.usertype.dateandtime.joda.PersistentLocalDate")
@@ -60,7 +60,7 @@ public class Track extends AbstractNowBeatEntity {
     @Temporal(TemporalType.TIMESTAMP)
     @Type(type = "org.jadira.usertype.dateandtime.joda.PersistentDateTime")
     @DateTimeFormat(style = "M-")
-    private DateTime uploadedTime;
+    private DateTime uploadedTime;*/
 
     @Column(name = "TRACK_FEE", precision = 20, scale = 3)
     private double trackFee;
@@ -130,7 +130,7 @@ public class Track extends AbstractNowBeatEntity {
         this.shortName = shortName;
     }
 
-    public LocalDate getUploadedDate() {
+    /*public LocalDate getUploadedDate() {
         return uploadedDate;
     }
 
@@ -144,7 +144,7 @@ public class Track extends AbstractNowBeatEntity {
 
     public void setUploadedTime(DateTime uploadedTime) {
         this.uploadedTime = uploadedTime;
-    }
+    }*/
 
     public double getTrackFee() {
         return trackFee;

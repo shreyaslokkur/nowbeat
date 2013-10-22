@@ -19,6 +19,7 @@
 
     <properties>
         <version.nowbeat>0.1.0</version.nowbeat>
+        <version.commons.dbcp>1.2.2</version.commons.dbcp>
         <version.apache.commons.lang3>3.1</version.apache.commons.lang3>
         <version.javax.validation>1.0.0.GA</version.javax.validation>
         <version.javax.persistence>2.0.3</version.javax.persistence>
@@ -29,6 +30,9 @@
         <version.joda.time>2.1</version.joda.time>
         <version.testng>6.5.2</version.testng>
         <version.spring.data.jpa>1.1.0.RELEASE</version.spring.data.jpa>
+        <version.javax.validation.implementation>4.3.0.Final</version.javax.validation.implementation>
+        <version.oracle.jdbc.driver>11.2.0.3</version.oracle.jdbc.driver>
+        <version.atomikos>3.8.0</version.atomikos>
     </properties>
 
     <dependencyManagement>
@@ -69,16 +73,56 @@
                 <artifactId>validation-api</artifactId>
                 <version>${version.javax.validation}</version>
             </dependency>
+            <dependency>
+                <groupId>org.hibernate</groupId>
+                <artifactId>hibernate-validator</artifactId>
+                <version>${version.javax.validation.implementation}</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>javax.xml.bind</groupId>
+                        <artifactId>jaxb-api</artifactId>
+                    </exclusion>
+                    <exclusion>
+                        <groupId>com.sun.xml.bind</groupId>
+                        <artifactId>jaxb-impl</artifactId>
+                    </exclusion>
+                </exclusions>
+            </dependency>
 
+            <dependency>
+                <groupId>com.atomikos</groupId>
+                <artifactId>transactions-hibernate3</artifactId>
+                <version>${version.atomikos}</version>
+                <exclusions>
+                    <exclusion>
+                        <artifactId>hibernate</artifactId>
+                        <groupId>org.hibernate</groupId>
+                    </exclusion>
+                </exclusions>
+            </dependency>
+            <dependency>
+                <groupId>jboss</groupId>
+                <artifactId>jboss-cache</artifactId>
+                <version>1.2.2</version>
+            </dependency>
             <dependency>
                 <groupId>joda-time</groupId>
                 <artifactId>joda-time</artifactId>
                 <version>${version.joda.time}</version>
             </dependency>
-
+            <dependency>
+                <groupId>com.oracle</groupId>
+                <artifactId>ojdbc14</artifactId>
+                <version>${version.oracle.jdbc.driver}</version>
+            </dependency>
             <dependency>
                 <groupId>org.hibernate</groupId>
                 <artifactId>hibernate-core</artifactId>
+                <version>${version.hibernate}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.hibernate</groupId>
+                <artifactId>hibernate-entitymanager</artifactId>
                 <version>${version.hibernate}</version>
             </dependency>
             <dependency>
@@ -86,7 +130,6 @@
                 <artifactId>hibernate-jpa-2.0-api</artifactId>
                 <version>${version.jpa.api}</version>
             </dependency>
-
             <dependency>
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-aspects</artifactId>
@@ -164,6 +207,12 @@
                 <artifactId>commons-lang3</artifactId>
                 <version>${version.apache.commons.lang3}</version>
             </dependency>
+            <dependency>
+                <groupId>commons-dbcp</groupId>
+                <artifactId>commons-dbcp</artifactId>
+                <version>${version.commons.dbcp}</version>
+            </dependency>
+
 
             <dependency>
                 <groupId>org.testng</groupId>

@@ -23,6 +23,10 @@
         </dependency>
         <dependency>
             <groupId>com.nowbeat</groupId>
+            <artifactId>nowbeat-core-orm-finders</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.nowbeat</groupId>
             <artifactId>nowbeat-api-facade</artifactId>
         </dependency>
 

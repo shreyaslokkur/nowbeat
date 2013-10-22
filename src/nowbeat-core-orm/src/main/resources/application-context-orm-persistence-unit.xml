@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.1.xsd">
+
+    <bean class="com.atomikos.jdbc.AtomikosDataSourceBean" init-method="init" destroy-method="close" id="hexgenBRSDataSource" depends-on="transactionManager">
+        <property name="uniqueResourceName" value="nowbeatdb"/>
+        <property name="xaDataSourceClassName" value="oracle.jdbc.xa.client.OracleXADataSource"/>
+        <property name="xaProperties">
+            <props>
+                <prop key="URL">jdbc:oracle:thin:@localhost:1521:orcl</prop>
+                <prop key="user">nowbeat</prop>
+                <prop key="password">nowbeat</prop>
+            </props>
+        </property>
+        <property name="testQuery" value="SELECT 1 FROM DUAL" />
+        <property name="minPoolSize" value="1" />
+        <property name="maxPoolSize" value="100" />
+    </bean>
+
+    <bean id="hibernateJpaAdapter" class="org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter">
+        <property name="database" value="ORACLE"/>
+    </bean>
+
+    <bean class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean" id="entityManagerFactory">
+        <property name="persistenceUnitName" value="NowbeatPersistenceUnit"/>
+        <property name="dataSource" ref="hexgenBRSDataSource"/>
+        <property name="jpaVendorAdapter" ref="hibernateJpaAdapter"/>
+    </bean>
+
+</beans>
